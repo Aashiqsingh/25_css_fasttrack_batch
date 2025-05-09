@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .navbar2 {
+        height: 100px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.486);
+        /* opacity: 0.5; */
+        padding-top: 10px;
+        padding-left: 30px;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .link {
+        float: right;
+        margin-top: -60px;
+        margin-right: 30px;
+    }
+
+    .link a {
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: arial;
+    }
+
+    .link a:hover {
+        color: orangered;
+        transition: 0.5s;
+    }
+
+    .fa-house {
+        color: orangered;
+        font-size: 30px;
+    }
+    .button button{
+        height: 40px;
+        width: 500px;
+        background-color: orangered;
+        color: white;
+        border: none;
+        margin: 30px;
+        margin-left: 70px;
+    }
+    .youtube{
+        height: 400px;
+        width: 100%;
+        background-color: #F0F0F0;
+        padding-top: 30px;
+        padding-left: 40px;
+    }
+    .youtube iframe{
+       padding: 10px;
+    }
+    .poster{
+        height: 870px;
+        width: 100%;
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+    .poster img{
+        height: 750px;
+        width: 550px;
+        margin: 10px;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.126);
+    }
+</style>
+
+<body>
+
+    <div class="main">
+        <div class="navbar2">
+            <div class="logo">
+                <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/logo_white-1.png" alt="">
+            </div>
+            <div class="link">
+                <a href=""><i class="fa-solid fa-house"></i></a>
+                <a href="">About us</a>
+                <a href="">our service</a>
+                <a href="">Contact</a>
+                <a href=""><i class="fa-solid fa-phone-volume"></i>+91 8763897433</a>
+            </div>
+        </div>
+        <!-- ending navbar -->
+
+        <div class="slider">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/hallticketbgnew.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/slider2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/slider_image3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/slider_image4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/slider_image5.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- slider enidng  -->
+
+        <div class="button">
+            <button>Register Here For Free Online seminar on What after 10th/12th</button>
+            <button>Register Here For Free Online Bootcamp</button>
+        </div>
+        <!-- button ending -->
+
+        <div class="youtube">
+            <iframe width="577" height="347" src="https://www.youtube.com/embed/j1_hkYd_31o" title="Profile || Dhiraj Poojara (Gujarati) || Royal Technosoft" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="577" height="347" src="https://www.youtube.com/embed/wtSwXvaQwNY" title="Dhiraj Poojara" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <!-- youtube ending -->
+
+        <div class="poster">
+            <img src="https://royaltechnosoft.com/wp-content/uploads/2021/07/NamraShah_page-0001.jpg" alt="">
+            <img src="https://royaltechnosoft.com/wp-content/uploads/2021/04/IMG-20210412-WA0004.jpg" alt="">
+        </div>
+
+    </div>
+
+</body>
+
+</html>
