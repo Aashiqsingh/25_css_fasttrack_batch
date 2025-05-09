@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        height: 300px;
+        width: 300px;
+        background-image: url('https://thumbs.dreamstime.com/b/young-party-cheerful-people-showered-confetti-club-31137048.jpg');
+        background-size: cover;
+    }
+    .box::before{
+        content: '';
+        position: absolute;
+        height: 300px;
+        width: 150px;
+        /* background-color: rgba(255, 68, 0, 0.779); */
+        background-image: url('https://rukminim2.flixcart.com/image/850/1000/l22724w0/poster/c/y/g/small-yogi-adityanath-multicolour-photo-paper-print-poster-yogi-original-imagdhydsfgxfsp4.jpeg?q=90&crop=false');
+        opacity: 0.5;
+        background-size: cover;
+        transition: 1s;
+    }
+    .box::after{
+        content: '';
+        position: absolute;
+        height: 300px;
+        width: 150px;
+        /* background-color: rgba(0, 128, 0, 0.781); */
+        background-image: url('https://www.dailypioneer.com/uploads/2025/story/images/big/amit-shah-speaks-to-chiefs-of-border-guarding-forces-amid-heightened-tension-with-pak-2025-05-09.jpg');
+        opacity: 0.5;
+        background-size: cover;
+        /* left: 158px; */
+        right: 972px;
+        bottom: 252px;
+        transition: 1s;
+    }
+    .box:hover::before{
+        width: 0;
+        height: 0;
+        transition: 1s;
+    }
+    .box:hover::after{
+        width: 0;
+        height: 0;
+        transition: 1s;
+    }
+</style>
+<body>
+    
+    <div class="box"></div>
+
+
+
+</body>
+</html>
