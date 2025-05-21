@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .main{
+        height: 500px;
+        width: 95%;
+        background-color: teal;
+        margin: auto;
+        display: flex;
+        /* padding: 10px; */
+        justify-content: space-around;
+        align-items: center;
+    }
+    .image{
+        width: 30%;
+    }
+    .image img{
+        width: 100%;
+    }
+    .para{
+        width: 65%;
+        color: white;
+        font-size: 22px;
+    }
+
+
+    @media(max-width: 500px){
+        .main{
+            background-color: red;
+            display: block;
+            height: auto;
+            padding: 10px;
+        }
+        .para{
+            width: 100%;
+            text-align: justify;
+            margin-top: 20px;
+        }
+        .image{
+            width: 100%;
+        }
+        .image img{
+            border-radius: 50%;
+            border: 4px dotted white;
+        }
+    }
+
+    @media(min-width: 501px) and (max-width: 899px){
+        .main{
+            background-color: aqua;
+            height: 100%;
+            padding: 10px;
+        }
+        .para{
+            color: black;
+            width: 50%;
+            text-align: justify;
+        }
+        .image{
+            width: 45%;
+        }
+    }
+
+    @media(min-width: 900px){
+        .main{
+            background-color: green;
+            height: auto;
+            padding: 10px;
+        }
+        .para{
+            text-align: justify;
+            color: black;
+            font-size: 18px;
+        }
+        .image img{
+            border-radius: 30px;
+        }
+    } 
+
+
+</style>
+<body>
+    <!-- media query  : page responsiveness -->
+   <br>
+    <div class="main">
+        <div class="image">
+            <img src="https://media.licdn.com/dms/image/v2/D5603AQGOLTy4barHow/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1680657582221?e=2147483647&v=beta&t=PYrtj32OM9ohdVNtvMLdZr0C4WfHr1YZrYcxEU06RlA" alt="">
+        </div>
+        <div class="para">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic esse iusto delectus doloremque blanditiis. Molestiae quae ullam hic enim accusamus tempore adipisci rerum illo obcaecati inventore debitis similique omnis voluptas sapiente eligendi mollitia explicabo, deleniti quam libero praesentium cum aspernatur. Pariatur exercitationem earum cumque accusamus necessitatibus magnam, quae odio velit veniam, facilis tempore voluptate! Magni, ratione. Qui modi porro inventore consequatur! Accusantium, iure quae! Repellendus incidunt animi natus minima atque veritatis cupiditate, excepturi impedit debitis, quasi at voluptate? Enim natus hic necessitatibus sequi praesentium ut, aliquid facere, aspernatur eius nostrum dicta, impedit numquam? Blanditiis veritatis facilis consectetur aut error harum?
+        </div>
+    </div>
+
+
+</body>
+</html>
