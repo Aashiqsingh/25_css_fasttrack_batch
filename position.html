@@ -7,7 +7,7 @@
 </head>
 <style>
     .main{
-        height: 500px;
+        height: 1500px;
         width: 500px;
         background-color: teal;
         margin: 100px 400px;
@@ -20,25 +20,28 @@
     .red{
         background-color: red;
         position: relative;
-        top: 1000px;
+        top: 30px;
         left: 50px;
     }
     .green{
         background-color: green;
         position: absolute;
-        top: 1000px;
         left: 50px;
+        top: 30px;
     }
     #blue{
         background-color: blue;
         position: fixed;
-        top: 100px;
+        top: 400px;
         left: 700px;
     }
-    #yellow{
+    .yellow{
         background-color: yellow;
         position: sticky;
-        top: 20px;
+        top: 40px;
+    }
+    .main2{
+        height: 1000px;
     }
 </style>
 <body>
@@ -47,8 +50,10 @@
         <div class="box red">Relative</div>
         <div class="box green">Absolute</div>
         <div class="box" id="blue">Fixed</div>
-        <div class="box" id="yellow">Sticky</div>
+        <div class="box yellow">Sticky</div>
     </div>
+
+    <div class="main2"></div>
 
 
 </body>
